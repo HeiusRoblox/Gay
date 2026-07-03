@@ -1,0 +1,19 @@
+[
+  {
+    "key": "DEVICES-HGHEIUS-00000085617783",
+    "expire": "2082-07-03",
+    "deviceIds": [
+      "DEVICE-9ASSU20C-99Y0HEG6-64DODFAP"
+    ],
+    "maxDevices": 1
+  },
+  {
+    "key": "KEY-0000477797287999999",
+    "expire": "2026-07-05",
+    "deviceIds": [
+      "DEVICE-QP1H0RMF-CKVMPQ33-78PWK8AS",
+      "DEVICE-ZAU8PFB7-XM5MLJVL-72A6I25M"
+    ],
+    "maxDevices": 2
+  }
+]
