@@ -34,26 +34,49 @@
 
     <main>
       <div id="alert" class="alert hidden"></div>
+<div class="card">
+    <table id="keys-table">
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Type</th>
+                <th>Max Device</th>
+                <th>Used</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
 
-      <div class="card">
-        <table id="keys-table">
-          <thead>
-            
- <tr>
-  <th>Key</th>
-  <th>Type</th>
-  <th>Max Device</th>
-  <th>Used</th>
-  <th>Status</th>
-  <th>Actions</th>
-</tr>
-            
-          </thead>
-          <tbody id="keys-body">
-            <tr><td colspan="5" class="empty">Loading...</td></tr>
-          </tbody>
-        </table>
-      </div>
+        <tbody id="keys-body">
+            <tr>
+                <td colspan="6" class="empty">Loading...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="card" id="device-card" style="display:none;margin-top:20px;">
+    <h2>Device Details</h2>
+
+    <p id="device-key-info" style="margin:10px 0;color:#666;font-size:14px;"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Device ID</th>
+                <th>Start Time</th>
+                <th>Expire Time</th>
+                <th>Time Left</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="device-body">
+        </tbody>
+    </table>
+</div>
+
     </main>
   </div>
 
